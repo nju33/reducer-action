@@ -1,4 +1,4 @@
-# @summary.shop/react-a
+# ReducerAction
 
 [![CircleCI](https://circleci.com/gh/nju33/react-a.svg?style=svg&circle-token=9c6b0217483ac8aca3220b42a652f08e0b36cfa4)](https://circleci.com/gh/nju33/react-a)
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
