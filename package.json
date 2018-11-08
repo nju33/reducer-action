@@ -1,0 +1,42 @@
+{
+  "name": "@nju33/reducer-action",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0",
+    "yarn": ">=1.10.0"
+  },
+  "main": "index.js",
+  "types": "dist/types/index.d.ts",
+  "module": "index.js",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build.main": "tsc -P tsconfig.main.json",
+    "build.types": "tsc -P tsconfig.types.json --emitDeclarationOnly",
+    "build": "yarn build.types"
+  },
+  "author": "nju33 <nju33.ki@grail.com>",
+  "repository": "nju33/reducer-action",
+  "homepage": "https://github.com/nju33/nju33/reducer-action",
+  "bugs": "https://github.com/nju33/nju33/reducer-action/issues",
+  "keywords": [
+    "type"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@geekcojp/tslint-config": "^0.2.1",
+    "prettier": "^1.15.1",
+    "renovate-config-nju33": "^0.0.1",
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  }
+}
