@@ -18,7 +18,8 @@
     "prepare": "yarn build",
     "build.main": "tsc -P tsconfig.main.json",
     "build.types": "tsc -P tsconfig.types.json --emitDeclarationOnly",
-    "build": "yarn build.types"
+    "build": "yarn build.types",
+    "postbuild": "node postbuild.js"
   },
   "author": "nju33 <nju33.ki@grail.com>",
   "repository": "nju33/reducer-action",
