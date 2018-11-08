@@ -32,12 +32,12 @@
     "access": "public"
   },
   "devDependencies": {
-    "@geekcojp/tslint-config": "^0.2.1",
-    "prettier": "^1.15.1",
-    "renovate-config-nju33": "^0.0.1",
-    "ts-jest": "^23.10.4",
-    "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.6"
+    "@geekcojp/tslint-config": "0.2.1",
+    "prettier": "1.15.1",
+    "renovate-config-nju33": "0.0.1",
+    "ts-jest": "23.10.4",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0",
+    "typescript": "3.1.6"
   }
 }
